@@ -917,6 +917,12 @@ body.show-menu #left-nav {
     -moz-animation: html5 2s ease;
     -webkit-animation: html5 2s ease;
 }
+.RLan {
+  background: #d35400;
+    width: 75%;
+    -moz-animation: html5 2s ease;
+    -webkit-animation: html5 2s ease;
+}
 .JavaLan {
   background: #308c25;
     width: 65%;
@@ -952,7 +958,7 @@ body.show-menu #left-nav {
 }
 @-moz-keyframes swedishLan {
   0%   { width: 0px;  }
-  100% { width: 52%;  }
+  100% { width: 75%;  }
 }
 @-moz-keyframes germanLan {
   0%   { width: 0px;  }

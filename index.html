@@ -97,7 +97,7 @@
 
          <div class="six columns main-col wow fadeIn">
           <div class="arrow-left"></div>
-            <p>Welcome to the homepage of Maxime Bombrun <br> I have a Ph.D. in Computer Science and currently hold a PostDoc position in the Center for Image Analysis in the Department of Information Technology of Uppsala University in Sweden. <br> I am looking for a new position, starting at the end of 2017, in Image Processing &amp; Analysis. I am looking for a challenging project in which I will be able to applied the knowledge I developed through the Geo- and the Bio-Imaging. <br> I am also curious about new domains of application for image analysis such as astronomy and oceanography. <br> Here, you will find information about my main research interests, my teaching activities and some personal information.
+            <p>Welcome to the homepage of Maxime Bombrun <br> I have a Ph.D. in Computer Science and currently hold a Data Scientist position in the Data Analytics Team of Scion in Rotorua, New Zealand. <br> I am currently not looking for a new position in Image Processing &amp; Analysis. However, I am looking for a challenging project in which I will be able to applied the knowledge I developed through the Geo- and the Bio-Imaging. <br> I am also curious about new domains of application for image analysis such as astronomy and oceanography. <br> Here, you will find information about my main research interests, my teaching activities and some personal information.
             </p>
           <div class="row">
             <div class="six columns download">
@@ -123,7 +123,20 @@
               <li class="timeline-event">
                 <label class="timeline-event-icon"></label>
                 <div class="timeline-event-copy">
-                  <p class="timeline-event-thumbnail">January 2016 - Present</p>
+                  <p class="timeline-event-thumbnail">January 2018 - Present</p>
+                  <h3>Data Analytic Team, Scion <br> Rotorua, New Zealand</h3>
+                  <h4>Data Scientist</h4>
+                  <p>Phenotyping Plateform 
+                  <ul>
+                    <li>Mathematic inferences of multi-parametric variables from climate, topography, genetics, and forest management for forest productivity estimation and predictions. </li>
+                  </ul>
+                  </p>
+                </div>
+              </li>            	
+              <li class="timeline-event">
+                <label class="timeline-event-icon"></label>
+                <div class="timeline-event-copy">
+                  <p class="timeline-event-thumbnail">January 2016 - January 2018</p>
                   <h3>Centre for Image Analysis and SciLifeLab, Uppsala Universitet <br> Uppsala, Sweden</h3>
                   <h4>PostDoc</h4>
                   <p>Large-Scale Data Analysis for Digital Image Analysis Applications 
@@ -291,6 +304,7 @@
            <ul class="skills">
             <li><span class="bar-expand cLan wow fadeInLeft"></span><em>C/C++/Cimg</em></li>
             <li><span class="bar-expand PythonLan wow fadeInLeft"></span><em>Python</em></li>
+            <li><span class="bar-expand RLan wow fadeInLeft"></span><em>R</em></li>
             <li><span class="bar-expand JavaLan wow fadeInLeft"></span><em>Java/ImageJ</em></li>
             <li><span class="bar-expand MatlabLan wow fadeInLeft"></span><em>Matlab</em></li>
             <li><span class="bar-expand ObjCLan wow fadeInLeft"></span><em>Objective-C</em></li>
@@ -534,7 +548,7 @@
             </div>
         </div> 
          <div id="modal-04" class="popup-modal mfp-hide">
-          <img class="scale-with-grid" src="./images/portfolio4_cont.png" alt="" />
+          <img class="scale-with-grid" src="./images/portfolio4.pdf" alt="" />
           <div class="description-box">
             <h4>Quantitative High-Content/High-Throughput Microscopy Analysis of Subject-Specific Adipogenesis Models</h4>
             <p>A new image processing algorithm for nucleus and lipid droplet segmentation and features extraction.</p>
@@ -644,7 +658,7 @@
          </div>
          <div class="seven columns">
             <h2 class="wow zoomIn">Hire me for your awesome project</h2>
-            <p>I am available in January 2018 and looking for a new challenging position.</p>
+            <p>I will be available in the future and looking for a new challenging position.</p>
          </div>
          <div class="three columns action wow fadeIn">
             <a href="#contact" class="button">Hire me Now</a>
@@ -717,7 +731,27 @@
             </div>
           </div>
       <div class="seven columns">
-         <div id="map"></div>
+         <div id="map">
+            <script>
+                // Initialize and add the map
+                function initMap() {
+                // The location of my job
+                var jobPosition = {lat: -38.1605, lng: 176.2655};
+                // The map, centered at Uluru
+                var map = new google.maps.Map(document.getElementById('map'), {zoom: 4, center: jobPosition});
+                // The marker, positioned at Uluru
+                var marker = new google.maps.Marker({position: jobPosition, map: map});
+                }
+            </script>
+            <!--Load the API from the specified URL
+            * The async attribute allows the browser to render the page while the API loads
+            * The key parameter will contain your own API key (which is not needed for this tutorial)
+            * The callback parameter executes the initMap() function
+            -->
+            <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+            </script>            
+         </div>
       </div>
       </div>
    </section>
@@ -737,7 +771,7 @@
             <ul class="copyright">
                <!-- I CREATED THIS TEMPLATE FOR YOU FOR FREE! PLEASE KEEP THIS LINE, THANK YOU! ENJOY THIS AMAZZZING TEMPLATE! -->
                <li>Template created by <a href="http://saferxmeds.com/">online medication</a>.</li> <br>
-               <li><a>&copy; 2017 Maxime Bombrun. All Rights Reserved.</a></li>
+               <li><a>&copy; 2019 Maxime Bombrun. All Rights Reserved.</a></li>
             </ul>
          </div>
          <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="fa fa-chevron-up"></i></a></div>
