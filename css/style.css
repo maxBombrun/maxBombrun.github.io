@@ -1347,7 +1347,7 @@ body.show-menu #left-nav {
 
 #testimonials .section-title:after {
   background: #F1F1F1;
-  content: "\f0e6";
+  /*content: "\f0e6";*/
   color: #95A3A3;
 }
 
@@ -1411,7 +1411,7 @@ body.show-menu #left-nav {
 
 #contact .section-title:after {
   background: #191919;
-  content: "\f003";
+  /*content: "\f003";*/
   color: #888;
 }
 
