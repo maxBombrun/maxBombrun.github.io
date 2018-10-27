@@ -906,7 +906,7 @@ body.show-menu #left-nav {
 
 /***/
 .cLan {
-  background: #3561ff;
+  background: #f37b7d;
     width: 60%;
     -moz-animation: html5 2s ease;
     -webkit-animation: html5 2s ease;
@@ -918,13 +918,13 @@ body.show-menu #left-nav {
     -webkit-animation: html5 2s ease;
 }
 .RLan {
-  background: #d35400;
+  background: #198ce7;
     width: 75%;
     -moz-animation: html5 2s ease;
     -webkit-animation: html5 2s ease;
 }
 .JavaLan {
-  background: #308c25;
+  background: #b07219;
     width: 65%;
     -moz-animation: html5 2s ease;
     -webkit-animation: html5 2s ease;
