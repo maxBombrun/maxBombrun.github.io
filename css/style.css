@@ -682,7 +682,7 @@ body.show-menu #left-nav {
 #resume .section-title:after {
   background: #fff;
   color: #666;
-  content: "\f02d";
+  /*content: "\f02d";*/
 }
 
 
@@ -1093,7 +1093,7 @@ body.show-menu #left-nav {
 
 #portfolio .section-title:after {
   background: transparent;
-  content: "\f0b1";
+  /*content: "\f0b1";*/
   color: #fff;
 }
 
