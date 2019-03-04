@@ -226,7 +226,7 @@ function parallax() {
 /*----------------------------------------------------*/
 /*  Google Map
 ------------------------------------------------------*/
-
+/*
     // main directions
       map = new GMaps({
         el: '#map', lat: 59.850856, lng: 17.630203, zoom: 13, zoomControl : true, 
@@ -235,7 +235,7 @@ function parallax() {
     // add address markers
     map.addMarker({ lat: 59.850856, lng: 17.630203, title: 'BD InfoSys',
       infoWindow: { content: '<p>Uppsala Universitet</p>' } });
-
+*/
 /*----------------------------------------------------*/
 /*	contact form
 ------------------------------------------------------*/
