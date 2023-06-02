@@ -1008,13 +1008,17 @@ body.show-menu #left-nav {
   0%   { width: 0px;  }
   100% { width: 52%;  }
 }
+@-webkit-keyframes spanishLan {
+  0%   { width: 0px;  }
+  100% { width: 35%;  }
+}
 @-webkit-keyframes germanLan {
   0%   { width: 0px;  }
-  100% { width: 20%;  }
+  100% { width: 5%;  }
 }
 @-webkit-keyframes japaneseLan {
   0%   { width: 0px;  }
-  100% { width: 10%;  }
+  100% { width: 5%;  }
 }
 /***/
 @-webkit-keyframes cLan {
@@ -1023,7 +1027,7 @@ body.show-menu #left-nav {
 }
 @-webkit-keyframes PythonLan {
   0%   { width: 0px;  }
-  100% { width: 85%;  }
+  100% { width: 95%;  }
 }
 @-webkit-keyframes JavaLan {
   0%   { width: 0px;  }
@@ -1040,6 +1044,10 @@ body.show-menu #left-nav {
 @-webkit-keyframes JSPHPLan {
   0%   { width: 0px;  }
   100% { width: 50%;  }
+}
+@-webkit-keyframes SQLBQLan {
+  0%   { width: 0px;  }
+  100% { width: 70%;  }
 }
 
 /* ------------------------------------------------------------------ */
